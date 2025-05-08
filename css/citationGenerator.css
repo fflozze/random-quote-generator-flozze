@@ -22,14 +22,14 @@ section {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 20px;
   width: 25vw;
   height: 25vh;
+  gap: 5%;
   border-radius: 30px;
   box-shadow: 3px 3px 12px #555;
 }
 
-#containerCitation {
+p {
   color: var(--font-color);
   font-size: larger;
   font-family: var(--font-police);
@@ -38,13 +38,18 @@ section {
   padding: 0 70px 0 70px;
 }
 
-#auteurCitation {
+h4 {
   color: var(--font-color);
   font-size: large;
   font-family: var(--font-police);
 }
 
-#newCitation {
+#buttonCitation {
+  margin-top: auto;
+  margin-bottom: 100px;
+}
+
+button {
   background-color: var(--button-color);
   color: var(--font-color);
   font-size: 1.1rem;
