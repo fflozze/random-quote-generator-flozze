@@ -1,0 +1,55 @@
+@import "./color.css";
+@import "./font.css";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  margin-top: 25vh;
+}
+
+#containerMainCitation {
+  background-color: var(--container-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 25vw;
+  height: 25vh;
+  border-radius: 30px;
+  box-shadow: 3px 3px 12px #555;
+}
+
+#containerCitation {
+  color: var(--font-color);
+  font-size: larger;
+  font-family: var(--font-police);
+  text-align: center;
+  text-justify: distribute;
+  padding: 0 70px 0 70px;
+}
+
+#auteurCitation {
+  color: var(--font-color);
+  font-size: large;
+  font-family: var(--font-police);
+}
+
+#newCitation {
+  background-color: var(--button-color);
+  color: var(--font-color);
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 10px;
+}
