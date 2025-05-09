@@ -39,7 +39,8 @@ generateur-citation-aleatoire/ \
 
 2. Naviguez dans le répertoire du projet :
 
-   ```cd generateur-citation-aleatoire
+   ```bash
+   cd generateur-citation-aleatoire
 
    ```
 
