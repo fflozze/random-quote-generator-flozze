@@ -56,13 +56,15 @@ La documentation du code est générée avec JSDoc. Pour générer la documentat
 
 1. Installez JSDoc globalement si ce n'est pas déjà fait :
 
-   ```npm install -g jsdoc
+   ```bash
+   npm install -g jsdoc
 
    ```
 
 2. Générez la documentation en exécutant la commande suivante dans le répertoire du projet :
 
-   ```jsdoc js/data.js js/index.js js/random-index.js
+   ```bash
+   jsdoc js/data.js js/index.js js/random-index.js
 
    ```
 
