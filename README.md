@@ -24,9 +24,6 @@ generateur-citation-aleatoire/ \
 │ ├── index.js \
 │ └── random-index.js \
 │ \
-├── out/ \
-│ └── documentation générée par JSDoc \
-│ \
 ├── index.html \
 └── README.md
 
