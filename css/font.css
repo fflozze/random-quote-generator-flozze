@@ -1,3 +1,4 @@
+/* Définition des variables globales */
 :root {
-  --font-police: helvetica;
+  --font-police: helvetica; /* Police de caractères principale */
 }

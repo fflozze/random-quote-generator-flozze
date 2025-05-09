@@ -1,60 +1,69 @@
+/* Importation des fichiers CSS externes */
 @import "./color.css";
 @import "./font.css";
 
+/* Réinitialisation des marges et paddings pour tous les éléments */
 * {
   margin: 0;
   padding: 0;
 }
 
+/* Style pour le corps du document */
 body {
-  background-color: var(--bg-color);
+  background-color: var(--bg-color); /* Couleur de fond principale */
 }
 
+/* Style pour la section principale contenant le générateur de citations */
 section {
-  display: flex;
-  justify-content: center;
-  margin-top: 25vh;
+  display: flex; /* Utilisation de flexbox pour le centrage et l'alignement */
+  justify-content: center; /* Centrage horizontal */
+  margin-top: 25vh; /* Marge en haut de 25% de la hauteur de la fenêtre */
 }
 
+/* Style pour le conteneur principal de la citation */
 #containerMainCitation {
-  background-color: var(--container-color);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 25vw;
-  height: 25vh;
-  gap: 5%;
-  border-radius: 30px;
-  box-shadow: 3px 3px 12px #555;
+  background-color: var(--container-color); /* Couleur de fond des conteneurs */
+  display: flex; /* Utilisation de flexbox pour le centrage et l'alignement */
+  justify-content: center; /* Centrage horizontal */
+  align-items: center; /* Centrage vertical */
+  flex-direction: column; /* Disposition en colonne */
+  width: 25vw; /* Largeur de 25% de la largeur de la fenêtre */
+  height: 25vh; /* Hauteur de 25% de la hauteur de la fenêtre */
+  gap: 5%; /* Espacement entre les éléments enfants */
+  border-radius: 30px; /* Coins arrondis */
+  box-shadow: 3px 3px 12px #555; /* Ombre légère pour l'effet de profondeur */
 }
 
+/* Style pour les paragraphes */
 p {
-  color: var(--font-color);
-  font-size: larger;
-  font-family: var(--font-police);
-  text-align: center;
-  text-justify: distribute;
-  padding: 0 70px 0 70px;
+  color: var(--font-color); /* Couleur de la police */
+  font-size: larger; /* Taille de police augmentée */
+  font-family: var(--font-police); /* Police de caractères */
+  text-align: center; /* Centrage du texte */
+  text-justify: distribute; /* Justification du texte */
+  padding: 0 70px; /* Espacement intérieur horizontal */
 }
 
+/* Style pour les titres de niveau 4 */
 h4 {
-  color: var(--font-color);
-  font-size: large;
-  font-family: var(--font-police);
+  color: var(--font-color); /* Couleur de la police */
+  font-size: large; /* Taille de police normale */
+  font-family: var(--font-police); /* Police de caractères */
 }
 
+/* Style pour le conteneur du bouton de citation */
 #buttonCitation {
-  margin-top: auto;
-  margin-bottom: 100px;
+  margin-top: auto; /* Marge en haut automatique */
+  margin-bottom: 100px; /* Marge en bas */
 }
 
+/* Style pour les boutons */
 button {
-  background-color: var(--button-color);
-  color: var(--font-color);
-  font-size: 1.1rem;
-  font-weight: 700;
-  padding: 10px 30px;
-  border: none;
-  border-radius: 10px;
+  background-color: var(--button-color); /* Couleur de fond des boutons */
+  color: var(--font-color); /* Couleur de la police */
+  font-size: 1.1rem; /* Taille de police légèrement augmentée */
+  font-weight: 700; /* Poids de la police */
+  padding: 10px 30px; /* Espacement intérieur */
+  border: none; /* Suppression de la bordure */
+  border-radius: 10px; /* Coins arrondis */
 }
