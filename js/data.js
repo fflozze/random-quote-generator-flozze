@@ -1,4 +1,8 @@
-const citations = [
+/**
+ * Tableau contenant des citations célèbres avec leur texte et leur auteur.
+ * @type {Array<{texte: string, auteur: string}>}
+ */
+export const citations = [
   {
     texte: "Le plus grand risque est de ne prendre aucun risque.",
     auteur: "Mark Zuckerberg",
@@ -43,16 +47,3 @@ const citations = [
     auteur: "Simon Sinek",
   },
 ];
-
-function write() {
-  let randomIndex = Math.floor(Math.random() * citations.length);
-  const citationsRandom = citations[randomIndex];
-
-  let text = document.getElementById("text");
-  text.innerText = citationsRandom.texte;
-
-  let autor = document.getElementById("autor");
-  autor.innerText = citationsRandom.auteur;
-}
-
-document.getElementById("newCitation").addEventListener("click", write);
