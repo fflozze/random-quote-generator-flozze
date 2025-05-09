@@ -12,22 +12,22 @@ Le "Générateur de citations aléatoires" est une application web simple qui af
 
 ## Structure du projet 📂
 
-generateur-citation-aleatoire/
-│
-├── css/
-│ ├── color.css
-│ ├── font.css
-│ └── citationGenerator.css
-│
-├── js/
-│ ├── data.js
-│ ├── index.js
-│ └── random-index.js
-│
-├── out/
-│ └── documentation générée par JSDoc
-│
-├── index.html
+generateur-citation-aleatoire/ \
+│ \
+├── css/ \
+│ ├── color.css \
+│ ├── font.css \
+│ └── citationGenerator.css \
+│ \
+├── js/ \
+│ ├── data.js \
+│ ├── index.js \
+│ └── random-index.js \
+│ \
+├── out/ \
+│ └── documentation générée par JSDoc \
+│ \
+├── index.html \
 └── README.md
 
 ## Installation
