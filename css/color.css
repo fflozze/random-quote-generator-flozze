@@ -1,7 +1,0 @@
-/* Définition des variables globales */
-:root {
-  --bg-color: rgb(215, 215, 215); /* Couleur de fond principale */
-  --container-color: rgb(47, 53, 65); /* Couleur de fond des conteneurs */
-  --button-color: rgb(112, 186, 124); /* Couleur de fond des boutons */
-  --font-color: rgb(205, 205, 205); /* Couleur de la police */
-}

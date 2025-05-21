@@ -1,0 +1,24 @@
+/**
+ * @fileoverview Système de design - Variables de couleurs
+ * Ce module définit le système de couleurs de l'application
+ * en utilisant des variables CSS pour maintenir la cohérence
+ * et faciliter la maintenance.
+ * 
+ * @author flozze
+ * @version 1.0.0
+ */
+
+/* Système de couleurs principal */
+:root {
+  /* Couleur de fond principale - Gris clair neutre */
+  --bg-color: rgb(215, 215, 215);
+  
+  /* Couleur de fond des conteneurs - Bleu-gris foncé */
+  --container-color: rgb(47, 53, 65);
+  
+  /* Couleur d'accent pour les boutons - Vert sage */
+  --button-color: rgb(112, 186, 124);
+  
+  /* Couleur de texte principale - Gris clair */
+  --font-color: rgb(205, 205, 205);
+}

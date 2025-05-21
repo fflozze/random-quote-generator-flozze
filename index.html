@@ -1,33 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
+    <!-- Métadonnées essentielles pour le SEO et la compatibilité mobile -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Générateur de citations inspirantes - Une application interactive pour découvrir des citations motivantes" />
+    <meta name="author" content="flozze" />
+    
+    <!-- Titre de l'application -->
     <title>Générateur de citations</title>
-    <link rel="stylesheet" href="./css/citationGenerator.css" />
+    
+    <!-- Feuille de style principale -->
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <!-- Section principale contenant le générateur de citations -->
+    <!-- Section principale : Structure responsive et centrée -->
     <section>
+      <!-- Conteneur principal : Design moderne avec ombre et coins arrondis -->
       <div id="containerMainCitation">
-        <!-- Conteneur pour la citation -->
-        <div id="containerCitation">
+        <!-- Zone de texte : Affichage de la citation avec style typographique optimisé -->
+        <div>
           <p id="text">
-            Ce n'est pas parce que les choses sont dificiles que nous n'osons
+            Ce n'est pas parce que les choses sont difficiles que nous n'osons
             pas, c'est parce que nous n'osons pas qu'elles sont difficiles.
           </p>
         </div>
-        <!-- Conteneur pour l'auteur de la citation -->
+        
+        <!-- Zone auteur : Mise en valeur de l'auteur avec style distinctif -->
         <div id="auteurCitation">
           <h4 id="autor">-Sénèque</h4>
         </div>
-        <!-- Bouton pour générer une nouvelle citation -->
+        
+        <!-- Bouton d'action : Interface utilisateur interactive -->
         <button id="newCitation">Nouvelle citation</button>
-        <!-- Espace vide pour le design -->
-        <div id="espace"></div>
       </div>
     </section>
-    <!-- Script principal pour la logique du générateur de citations -->
+
+    <!-- Intégration du JavaScript modulaire -->
     <script type="module" src="./js/index.js"></script>
   </body>
 </html>

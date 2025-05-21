@@ -1,0 +1,14 @@
+/**
+ * @fileoverview Système de design - Typographie
+ * Ce module définit les variables typographiques de l'application
+ * pour assurer une cohérence visuelle et une meilleure maintenabilité.
+ * 
+ * @author flozze
+ * @version 1.0.0
+ */
+
+/* Système typographique */
+:root {
+  /* Police principale - Helvetica pour une lisibilité optimale */
+  --font-police: helvetica;
+}

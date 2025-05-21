@@ -1,12 +1,23 @@
+/**
+ * @fileoverview Module principal du générateur de citations aléatoires.
+ * Ce module gère l'affichage et la mise à jour des citations sur l'interface utilisateur.
+ * @author [flozze]
+ * @version 1.0.0
+ */
+
 // Importation des modules nécessaires
 import { citations } from "./data.js";
 import { randomIndex } from "./random-index.js";
 
 /**
- * Fonction pour afficher une citation aléatoire.
- * Sélectionne un élément HTML pour le texte et l'auteur de la citation,
- * génère un index aléatoire pour sélectionner une citation,
- * puis met à jour le texte et l'auteur de la citation affichée.
+ * Affiche une citation aléatoire dans l'interface utilisateur.
+ * Cette fonction est responsable de :
+ * - La sélection des éléments DOM pour le texte et l'auteur
+ * - La génération d'un index aléatoire
+ * - La mise à jour du contenu HTML avec la nouvelle citation
+ * 
+ * @function display
+ * @returns {void}
  */
 function display() {
   // Sélection des éléments HTML pour le texte et l'auteur de la citation
