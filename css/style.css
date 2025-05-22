@@ -50,7 +50,6 @@ p {
   font-family: var(--font-police); /* Police de caractères */
   text-align: center; /* Centrage du texte */
   text-justify: distribute; /* Justification du texte */
-  padding: 0 70px; /* Espacement intérieur horizontal */
 }
 
 /* Style pour les titres de niveau 4 */
