@@ -11,11 +11,11 @@
  * Chaque citation est un objet contenant :
  * - texte: La citation elle-même
  * - auteur: Le nom de l'auteur de la citation
- * 
+ *
  * @type {Array<{texte: string, auteur: string}>}
  * @constant
  */
-export const citations = [
+export const data = [
   {
     texte: "Le plus grand risque est de ne prendre aucun risque.",
     auteur: "Mark Zuckerberg",

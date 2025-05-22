@@ -6,7 +6,7 @@
  */
 
 // Importation des modules nécessaires
-import { citations } from "./data.js";
+import { data } from "./data.js";
 import { randomIndex } from "./random-index.js";
 
 /**
@@ -15,21 +15,21 @@ import { randomIndex } from "./random-index.js";
  * - La sélection des éléments DOM pour le texte et l'auteur
  * - La génération d'un index aléatoire
  * - La mise à jour du contenu HTML avec la nouvelle citation
- * 
+ *
  * @function display
  * @returns {void}
  */
 function display() {
   // Sélection des éléments HTML pour le texte et l'auteur de la citation
-  let text = document.getElementById("text");
-  let autor = document.getElementById("autor");
+  const text = document.getElementById("text");
+  const autor = document.getElementById("autor");
 
   // Génération d'un index aléatoire pour sélectionner une citation
-  let randomCitation = randomIndex(citations);
+  const randomCitation = randomIndex(data);
 
   // Mise à jour du texte et de l'auteur de la citation affichée
-  text.innerText = citations[randomCitation].texte;
-  autor.innerText = citations[randomCitation].auteur;
+  text.innerText = data[randomCitation].texte;
+  autor.innerText = data[randomCitation].auteur;
 }
 
 // Ajout d'un écouteur d'événement sur le bouton pour générer une nouvelle citation

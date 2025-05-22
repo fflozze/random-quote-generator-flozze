@@ -24,14 +24,23 @@ section {
 #containerMainCitation {
   background-color: var(--container-color); /* Couleur de fond des conteneurs */
   display: flex; /* Utilisation de flexbox pour le centrage et l'alignement */
+  justify-content: space-between; /* Centrage horizontal */
+  align-items: center; /* Centrage vertical */
+  flex-direction: column; /* Disposition en colonne */
+  padding: 15px;
+  width: 25vw; /* Largeur de 25% de la largeur de la fenêtre */
+  height: 25vh; /* Hauteur de 25% de la hauteur de la fenêtre */
+  border-radius: 30px; /* Coins arrondis */
+  box-shadow: 3px 3px 12px #555; /* Ombre légère pour l'effet de profondeur */
+}
+
+#containerText {
+  display: flex; /* Utilisation de flexbox pour le centrage et l'alignement */
   justify-content: center; /* Centrage horizontal */
   align-items: center; /* Centrage vertical */
   flex-direction: column; /* Disposition en colonne */
-  width: 25vw; /* Largeur de 25% de la largeur de la fenêtre */
-  height: 25vh; /* Hauteur de 25% de la hauteur de la fenêtre */
-  gap: 5%; /* Espacement entre les éléments enfants */
-  border-radius: 30px; /* Coins arrondis */
-  box-shadow: 3px 3px 12px #555; /* Ombre légère pour l'effet de profondeur */
+  gap: 20px; /* Espacement entre les éléments */
+  margin-top: 25px;
 }
 
 /* Style pour les paragraphes */
